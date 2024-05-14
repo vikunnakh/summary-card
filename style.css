@@ -21,7 +21,13 @@ body {
   transform: translate(-50%, -50%);
 }
 .purple-side-container {
-  background: linear-gradient(#6821ff, #3b00b9);
+  background: rgb(104, 33, 255);
+  background: linear-gradient(
+    161deg,
+    rgba(104, 33, 255, 1) 0%,
+    rgba(59, 0, 185, 1) 100%
+  );
+
   width: 349px;
   border-radius: 50px;
 }
@@ -30,7 +36,7 @@ h5 {
   font-family: "Inter", sans-serif;
   font-size: 22px;
   margin: 34px 0 36px 0;
-  color: gray;
+  color: #c2c2c2;
   font-weight: bold;
 }
 .circle {
@@ -62,7 +68,7 @@ h4 {
   color: white;
 }
 .great-p {
-  color: grey;
+  color: #c2c2c2;
   font-size: 16px;
   font-family: "Inter", sans-serif;
   width: 251px;
